@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title> Guessing Game</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device - width, initial-scale: 1.0">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body> 
+        <h1 id="header"> 
+            Guess the Number Game </h1>
+        <p id="rules"> The CPU will randomly select a number between 1 and 100, and 
+            the user has to guess the number. 
+        </p>
+        <input id="num" type="number" min="0" max="100"/>
+        <button id="guessBtn" onclick="numberGuess()"> click here!</button>
+        <p id="responseText"></p>
+        <script src="script.js"></script>
+    </body>
+</html>
